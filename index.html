@@ -12,19 +12,19 @@
             <label for="color" hidden>Pick your color:</label>
             <input name="color" id="color" type="color">  
             <select class="color-scheme-select" name="scheme" id="scheme">
-                <option value="Monochrome">Monochrome</option>
-                <option value="Monochrome2">Monochrome</option>
-                <option value="Monochrome3">Monochrome</option>
+                <option value="monochrome">monochrome</option>
+                <option value="monochrome-dark">monochrome-dark</option>
+                <option value="monochrome-light">monochrome-light</option>
+                <option value="analogic">analogic</option>
+                <option value="complement">complement</option>
+                <option value="analogic-complement">analogic-complement</option>
+                <option value="triad">triad</option>
+                <option value="quad">quad</option>
             </select>
             <button type="submit">Get color scheme</button>
         </form>
         <div class="colors">
-            <div class="color-stripes-wrapper">
-                <div class="color-stripe"></div>
-            </div>
-            <div class="hex-codes-wrapper">
-                <p class="hex-code"></p>
-            </div>
+            <div class="color-stripes-wrapper" id="stripes-wrapper"></div>
         </div>
     </div>
 
