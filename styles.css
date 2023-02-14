@@ -78,13 +78,15 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .color-stripe {
+    width: 100%;
     display: flex;
     align-items: flex-end;
     min-height: 460px;
-    width: 110px;
+    max-width: 110px;
 }
 
 .hex-code {
